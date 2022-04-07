@@ -1,9 +1,5 @@
-
 let kaverit = [];
-let lomake = document.forms['formNewFriend'];
-let friendList = document.getElementById('friendList');
 
-friendList.addEventListener
 
 function addFriend() {
     console.log('add friend')
