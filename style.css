@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root {
+    --otsikko: #2d8a35;
+    --nappi-vaalea: #8cff96;
+    --nappi-tumma: #48c948;
+    --haku: #e7fce1;
+    --varjo-vaalea: rgb(29, 116, 26);
+    --varjo-tumma: rgb(14, 63, 22);
+    --reuna: rgb(115, 255, 0);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Permanent Marker', cursive, sans-serif;
+    color: var(--otsikko);
+    padding-top: 20px;
+}
+
+div {
+    font-family: cursive, sans-serif;
+}
+
+.button {
+    padding: 5px 8px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: var(--nappi-vaalea);
+    border: groove;
+    border-color: var(--reuna);
+    box-shadow: 0 8px var(--varjo-vaalea);
+}
+
+.button:hover {
+    background-color: var(--nappi-tumma);
+    box-shadow: 0 6px var(--varjo-tumma);
+    transform: translateY(2px);
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px var(--varjo-tumma);
+    transform: translateY(6px);
+}
+
+input {
+    background-color: var(--haku);
+    padding: 5px 8px;
+    font-size: 16px;
+    box-shadow: 0 8px;
+    
+}
+
+ol {
+    padding: 3px;
+    background-color: var(--nappi-vaalea);
+}
+
+ol li {
+    background-color: var(--haku);
+    padding: 8px;
+    margin: 5px;
+}
